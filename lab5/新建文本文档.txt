@@ -1,0 +1,40 @@
+ 
+
+lab5f1 随机分组函数
+
+lab5f2  非线性回归处理函数 未改进！！！
+
+lab5fstd 只针对全体样本的 线性回归处理函数
+
+
+lab5fcc  非线性回归处理函数 初始改进版，输入参数为kn
+
+lab5fnl 非线性回归  已改进版本，直接输入参数K，不是kn
+
+
+
+lab50 第7题未解决K变化版本  未改进！！！！
+
+lab503  lab50调用子函数lab5f2 版本  未改进！！！
+
+lab503E lab50调用子函数lab5fcc 版本 已改进
+
+lab503EE lab50调用子函数lab5fnl 版本 已改进 生成单次图像
+
+lab50617 画图工具，用于证明   对于固定样本，K值越大Error越小。 ((((((((((((这不是废话么
+
+lab508 验证K的变化对Error的影响。固定训练集400；lab5fnl 版本 从2-100 50次 训练Er测试Er差值Er三线图像
+
+lab508T 验证K的变化对Error的影响。固定训练集400；lab5fnl 版本 从2-100 50次 训练Er测试Er差值Er三线图像  10次循环集束版
+
+lab508A 验证K的变化对Error的影响。固定训练集400；lab5fnl 版本 从2-100 50次 训练Er测试Er差值Er三线图像  50次循环 画均值线
+
+lab51  第8题  已完成改进  K固定50版本
+
+lab51EE 验证K值变化 1-506  对于Error的影响 调用lab5fnl housing.data 绘制10次叠加图像
+
+
+lab52  第9题  已完成改进  airfoil_self_noise.dat
+
+
+

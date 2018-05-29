@@ -1,0 +1,11 @@
+c = [2,1;1,2];
+a = chol(c);
+t = a.'*a;
+X=randn(10000,2);
+Y = X*a;
+theta = 0.25;
+u = [sin(theta);cos(theta)];
+yp = Y*u;
+var_empirical = var(yp);
+var_theoretical = u'*c*u;
+[V,D]=eig(c);
